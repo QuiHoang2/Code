@@ -8,4 +8,6 @@ int main()
 	max = a;
 	if (b > max) max = b;
 	if (c > max) max = c;
+	printf("max = %d", max);
+	return 0;
 }
